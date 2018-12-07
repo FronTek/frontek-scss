@@ -1,17 +1,20 @@
 // 1. Customized Bootstrap
 @import "bootstrap-custom";
 
-// 2. Configuration and helpers
+// 2. Custom Mixins
+@import "mixins/mixins";
+
+// 3. Configuration and helpers
 @import "abstracts/variables", "abstracts/functions", "abstracts/mixins";
 
-// 3. Base stuff
+// 4. Base stuff
 @import "base/base", "base/typography";
 
-// 4. Layout-related sections
+// 5. Layout-related sections
 @import "layout/header";
 
-// 5. Components
+// 6. Components
 @import "components/buttons";
 
-// 6. Page-specific styles
+// 7. Page-specific styles
 @import "pages/home";
