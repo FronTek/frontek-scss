@@ -4,7 +4,7 @@
   "description": "FronTek, A simple frontend UI FrameStack consists of customized most popular UI Framework Bootstrap, CSS preprocessor SCSS and CSS architecture with BEM.",
   "main": "dist/main.css",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
